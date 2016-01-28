@@ -1,7 +1,7 @@
 #import string
+#print string.capwords(userInput)
 
 userInput = str(raw_input('Enter string: '))
-#print string.capwords(userInput)
 
 strList = userInput.split()
 print strList
@@ -9,5 +9,6 @@ print strList
 cStr = ''
 
 for word in strList:
-	cStr = cStr + ' ' + word[:1].upper() + word[1:].lower()
+	if not word.isdigit(): 
+		cStr = cStr + ' ' + word[:1].upper() + word[1:].lower()
 print cStr

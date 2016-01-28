@@ -42,3 +42,7 @@ print 'dList: ' + str(dList)
 print 'dList[len(dList):len(dList)-len(dList):-1]: ' + str(dList[len(dList):len(dList)-len(dList):-1])
 
 print 'dList[len(dList)::-1]: ' + str(dList[len(dList)::-1])
+
+
+
+print 'dList[0:1]: ' + str(dList[0:1])
