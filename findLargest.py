@@ -1,4 +1,4 @@
-#numList = [1,22,200,100]
+#numList = [1,22,200,100] 
 newList = raw_input('Enter list: ')
 numList = newList.split()
 
@@ -13,4 +13,4 @@ Total = int(Largest) + int(secLargest)
 
 print 'Largest: ' + str(Largest)
 print 'Second Largest: ' + str(secLargest)
-print 'Sum: ' + str(Total)
+print 'Total: ' + str(Total)
