@@ -9,5 +9,5 @@ print strList
 cStr = ''
 
 for word in strList:
-	cStr = cStr + ' ' + word[:1].upper() + word[1:]
+	cStr = cStr + ' ' + word[:1].upper() + word[1:].lower()
 print cStr
